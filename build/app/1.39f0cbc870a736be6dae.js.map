@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./app/utils/motion.js"],"names":["domMax"],"mappings":"2FACA,uBACeA,YAAf","file":"1.39f0cbc870a736be6dae.js","sourcesContent":["// @flow\nimport { domMax } from \"framer-motion\";\nexport default domMax;\n"],"sourceRoot":""}

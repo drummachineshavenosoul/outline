@@ -1,0 +1,23 @@
+{
+  "icons": [
+    {
+      "src": "/static/icon_192x192.4fd21dab1acda02d1cebbb2396774d0e.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/static/icon_512x512.e09b4a7c6aa255d0497647acf7b9cf49.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "name": "Outline",
+  "short_name": "Outline",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "/",
+  "background_color": "#fff",
+  "theme_color": "#fff"
+}

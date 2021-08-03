@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>//inject-title//</title>
+    <meta name="theme-color" content="#FFF" />
+    <meta name="slack-app-id" content="//inject-slack-app-id//" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="description" content="A modern team knowledge base for your internal documentation, product specs, support answers, meeting notes, onboarding, &amp; more…">
+    //inject-prefetch//
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="/favicon-32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      href="/apple-touch-icon.png"
+      sizes="192x192"
+    />
+    <link
+      rel="search"
+      type="application/opensearchdescription+xml"
+      href="/opensearch.xml"
+      title="Outline"
+    />
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        display: flex;
+        width: 100%;
+        height: 100%;
+      }
+
+      #root {
+        flex: 1;
+        min-height: 100vh;
+        width: 100%;
+      }
+    </style>
+  <meta name="theme-color" content="#fff" /><link rel="manifest" href="/static/manifest.d8493139975b5089b0e0e369ff45871c.json" /></head>
+
+  <body>
+    <div id="root"></div>
+    <script>
+      //inject-env//
+    </script>
+    <script>
+      if (window.localStorage && window.localStorage.getItem("theme") === "dark") {
+        var color = "#111319";
+        document.querySelector("#root").style.background = color;
+        document.querySelector('meta[name="theme-color"]').setAttribute("content", color);
+      }
+    </script>
+  <script type="text/javascript" src="/static/runtime.45081d248f866d1365d6.js"></script><script type="text/javascript" src="/static/main.bcb28b172272f24f5219.js"></script></body>
+</html>
